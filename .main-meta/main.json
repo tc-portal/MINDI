@@ -1,0 +1,49 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.mindi.project",
+   "content":{
+      "metaDataVersion":"1.0.0",
+        "name": "com.microchip.mcu8.mindi.example.avrdb-opamp-direct-connection",
+        "version": "1.0.1",
+        "displayName": "AVR DB OPAMP Mindi example - connected directly to pins",
+        "projectName": "avrdb-opamp-mindi-direct-connection",
+        "shortDescription": "This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool.",
+        "simulator": {
+            "name": "MPLAB-Mindi",
+            "semverRange": ">=8.5.0"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "AVRDB",
+                "versionRange": "*"
+            }
+        },
+      "keywords":[
+            "Analog Signal Conditioning",
+            "Getting Started",
+            "Operational Amplifier",
+            "Op Amp",
+            "Simulation",
+            "Intelligent Analog",
+            "AVR-DB",
+            "AVRDB",
+            "Mindi",
+			"OPAMP"			
+      ],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}	  
+   }
+}
